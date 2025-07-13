@@ -69,7 +69,7 @@ Notebooks code provide key insights to be used on superset dashboard:
 - **Abdullah Kamal** - Senior Data Steward - Schneider Electric
 - **Ahmed Abdullah** - Senior Data Analyst - Seoudi Corporate
 - **Adham Abdelhameed ElSharkawy** – Cloud Solution Architect - Microsoft
-- **Ajeeb ElAmeen** - 
+- **Ajeeb ElAmeen** - Senior data Analyst
 - **Osama ElNaggar** - Data Management Lead - Dana Petroleum
 
 ## 📜 License
