@@ -47,7 +47,11 @@ This project leverages a modern data engineering stack:
 <pre> ```bash # Initialize Postgress and Airflow services bash init.sh build # Initialize Superset bash init_superset.sh ``` </pre>
 
 4. Access Airflow at: `http://localhost:8080`
-5. Access Superset at: `http://localhost:8088`
+5. Access pgadmin at: `http://localhost:5050`
+6. Access Superset at: `http://localhost:8088`
+5. To shut down all the env. Run:
+
+<pre> ```bash shutdown.sh``` </pre>
 
 ## 🧠 Machine Learning
 
@@ -63,7 +67,7 @@ Notebooks code provide key insights to be used on superset dashboard:
 ## 👥 Authors
 
 - **Abdullah Kamal** - Senior Data Steward - Schneider Electric
-- **Ahmed Abdullah** - 	
+- **Ahmed Abdullah** - Senior Data Analyst - Seoudi Corporate
 - **Adham Abdelhameed ElSharkawy** – Cloud Solution Architect - Microsoft
 - **Ajeeb ElAmeen** - 
 - **Osama ElNaggar** - Data Management Lead - Dana Petroleum
