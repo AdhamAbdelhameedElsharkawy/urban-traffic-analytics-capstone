@@ -27,11 +27,12 @@ This project leverages a modern data engineering stack:
 ## 📂 Project Structure
 
 ```
-├── docker/                  # Docker setup and infra structure
+├── Infra/                  # Docker setup and infra structure
 ├── Bus_BusLanes/              # Code for Bus and bus lanes datasets
 ├── Subway/                  # Code for Subway dataset
 ├── Taxi/                  # Code for Taxi dataset
 ├── ML-Model/              # Machine learning Model code for fare predication
+├── Sample data/              # Data samples to be used with Airflow pipeline dags
 ├── Capstone Project-NYC Transportation Analysis.pptx              # Small presentation for the project and some analytics
 └── README.md
 ```
@@ -40,11 +41,12 @@ This project leverages a modern data engineering stack:
 
 1. Clone the repository
 2. Ensure Docker is installed
-3. Run:
+3. From Docker folder Run (add build as bash parameter to rebuild containers):
 
-```bash
-cd docker
-docker-compose up --build
+```bash init.sh build `` to start up postgress and Airflow
+```bash init_super_set `` to start up superset
+
+
 ```
 
 4. Access Airflow at: `http://localhost:8080`
@@ -71,11 +73,11 @@ Superset dashboards provide key insights:
 
 ## 📜 License
 
-MIT License (Add `LICENSE` file if needed)
+MIT License
 
 ## 🌐 Public Datasets Used
 
-- [NYC Traffic Commission Data](https://www.nyc.gov/html/dot/html/about/datafeeds)(https://catalog.data.gov/dataset/mta-subway-stations)
+- [NYC Traffic Commission Data](https://www.nyc.gov/html/dot/html/about/datafeeds)(https://catalog.data.gov/dataset/mta-subway-stations)(https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 ---
 
