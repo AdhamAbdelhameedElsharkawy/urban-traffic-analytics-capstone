@@ -31,8 +31,9 @@ This project leverages a modern data engineering stack:
 ├── Bus_BusLanes/              # Code for Bus and bus lanes datasets
 ├── Subway/                  # Code for Subway dataset
 ├── Taxi/                  # Code for Taxi dataset
-├── ML-Model/              # Machine learning Model code for fare predication
-├── Sample data/              # Data samples to be used with Airflow pipeline dags
+├── ML_Model/              # Machine learning Model code for fare predication
+├── Airflow_pipelines/          # Dags and python scripts for datasets pipelines
+├── Sample_data/              # Data samples to be used with Airflow pipeline dags
 ├── Capstone Project-NYC Transportation Analysis.pptx              # Small presentation for the project and some analytics
 └── README.md
 ```
@@ -43,11 +44,7 @@ This project leverages a modern data engineering stack:
 2. Ensure Docker is installed
 3. From Docker folder Run (add build as bash parameter to rebuild containers):
 
-```bash init.sh build `` to start up postgress and Airflow
-```bash init_super_set `` to start up superset
-
-
-```
+<pre> ```bash # Initialize Postgress and Airflow services bash init.sh build # Initialize Superset bash init_superset.sh ``` </pre>
 
 4. Access Airflow at: `http://localhost:8080`
 5. Access Superset at: `http://localhost:8088`
@@ -59,7 +56,7 @@ We trained models on Taxi data to predict trip fare using:
 
 ## 📊 Dashboards
 
-Superset dashboards provide key insights:
+Notebooks code provide key insights to be used on superset dashboard:
 - Trip durations over time
 - Day vs. night ride trends
 
@@ -77,7 +74,9 @@ MIT License
 
 ## 🌐 Public Datasets Used
 
-- [NYC Traffic Commission Data](https://www.nyc.gov/html/dot/html/about/datafeeds)(https://catalog.data.gov/dataset/mta-subway-stations)(https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- [NYC Traffic Commission Data](https://www.nyc.gov/html/dot/html/about/datafeeds)
+                               (https://catalog.data.gov/dataset/mta-subway-stations)
+                               (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 ---
 
